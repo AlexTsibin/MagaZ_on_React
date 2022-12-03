@@ -33,6 +33,11 @@ function App() {
     async function axiosData() {
       const productsData = await axios.get(DB + '/products')
       const cartData = await axios.get(DB + '/cart')
+      cartData.data.forEach((item, index, arr) => {
+        if (typeof item.price != 'number') {
+          arr[index].price = parseInt(item.price.replace(/ /g, ''))
+        }
+      })
       const favoritesData = await axios.get(DB + '/favorites')
 
       setLoading(false)

@@ -71,12 +71,14 @@ const Card = (props) => {
           </ContentLoader>
           :
           <>
+            <div>
             {
               context.itemFavorited(props.id) === true ?
                 <button className={style['favorite-btn-added']} onClick={onClickFavorite}>Товар в избранном</button>
                 :
                 <button className={style['favorite-btn']} onClick={onClickFavorite}>Добавить в избранное</button>
             }
+            </div>
             <img className={style['product-img']} src={props.img} alt={props.title} />
 
             <p className={style['product-title']}>{props.title}</p>
