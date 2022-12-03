@@ -1,0 +1,84 @@
+.banner-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: end;
+    align-items: center;
+
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-image: url("/public/img/banner.jpeg");
+    background-size: cover;
+    /* background вписать в контейнер */
+    background-position: center;
+
+    border-radius: 30px;
+}
+.banner2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: end;
+    align-items: center;
+
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-image: url("/public/img/1.webp");
+    background-size: cover;
+    /* background вписать в контейнер */
+    background-position: center;
+
+    border-radius: 30px;
+    color: white !important;
+}
+
+.text-banner {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.banner2 .text-banner, .banner2 .text-banner span{
+    color: white;
+}
+.text-banner span {
+    color: #001AFF;
+}
+
+.banner-btn {
+    background-color: #001AFF;
+    color: white;
+
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: none;
+
+    transition: box-shadow 0.2s ease-out;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.banner-btn:active {
+    background-color: white;
+    color: #001AFF;
+}

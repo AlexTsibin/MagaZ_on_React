@@ -1,0 +1,13 @@
+.text-section {
+
+    margin: 0 auto;   /* выравнивание по центру */
+}
+
+.text-section h2 {
+    text-align: center;
+}
+
+.text-section p {
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+}

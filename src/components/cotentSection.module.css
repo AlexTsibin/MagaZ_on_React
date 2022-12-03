@@ -1,0 +1,7 @@
+.content-section{
+    display: flex;
+    position: relative;
+    margin: 10px 40px;
+    flex-direction: row;
+    gap: 20px;
+}

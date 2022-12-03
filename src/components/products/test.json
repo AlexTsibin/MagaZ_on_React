@@ -1,0 +1,23 @@
+[   
+    {
+        "id": 1,
+        "title": "IPad Air iPad 2",
+        "description": "Короткое описание продукта",
+        "price": "42 999",
+        "img": "./img/iphone-1.png"
+    },
+    {
+        "id": 2,
+        "title": "iPhone XR 2",
+        "description": "Короткое описание продукта",
+        "price": "42 999",
+        "img": "./img/iphone-1.png"
+    },
+    {
+        "id": 3,
+        "title": "iPhone XR 3",
+        "description": "Короткое описание продукта",
+        "price": "42 999",
+        "img": "./img/iphone-1.png"
+    }
+]
